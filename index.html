@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1 class="logo">Wayne kipngeno</h1>
+<body>
+<!-- Header & Navigation -->
+ <Header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </Header>
+    <!--Hero Section-->
+    <section class="hero">
+        <h1>Welcome to my portfolio</h1>
+        <p>I'm a web developer and designer.</p>
+        <a href="about.html" class="btn">Learn More</a>
+    </section>
+    <!--About Section-->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am an IT student with a passion for web development and design. I have experience in HTML, CSS, JavaScript, and other web technologies. I enjoy creating beautiful and functional websites that provide a great user experience.</p>
+        </p>
+        <!--Skills Section-->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        
+        </ul>
+    </section>
+    <!--Contact Section-->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me!</p>
+        <p>Email: <a href="mailto:waynekipngeno00@gmail.com">waynekipngeno00@gmail.com</a></p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>  
+</body>
+</html>
